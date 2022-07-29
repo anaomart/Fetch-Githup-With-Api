@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.repos-container {
+    width: 800px;
+    background-color: #f6f6f6;
+    margin: auto;
+}
+
+.repos-container .get-repos {
+    padding: 20px;
+    display: flex;
+    background-color: #242582;
+}
+
+.repos-container .get-repos input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    height: 54px;
+}
+
+input:focus {
+    outline: 2px solid#242582;
+}
+
+.get-repos .get-button {
+    width: 140px;
+    margin-left: 10px;
+    height: 54px;
+    color: white;
+    background-color: #123456;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 54px;
+}
+
+.repos-container .show-data {
+    background-color: #393991;
+}
+
+.show-data span {
+    margin: 20px;
+}
+
+.show-data div {
+    width: 100%;
+    padding: 15px 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.show-data div a {
+    color: #b1a296
+}
